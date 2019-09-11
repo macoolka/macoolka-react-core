@@ -1,0 +1,94 @@
+{
+  "name": "macoolka-react-core",
+  "version": "0.2.0",
+  "main": "./lib/index.js",
+  "author": "fastspeeed@gmail.com",
+  "scripts": {
+    "reinstall": "rm -rf node_modules/ && yarn install",
+    "clean": "rm -rf lib/ coverage/ ",
+    "lint": "tslint -p tsconfig.json",
+    "lint:fix": "tslint -p tsconfig.json --fix",
+    "test": "jest",
+    "build": "rm -rf lib/ && tsc ",
+    "precommit": "npm run lint",
+    "prepush": "npm run test",
+    "all": "npm run clean && tsc && jest  --coverage && tslint -p tsconfig.json",
+    "coverage": "rimraf coverage && jest  --coverage",
+    "docs": "macoolka-doc"
+  },
+  "dependencies": {
+    "accept-language": "^3.0.18",
+    "dom-helpers": "^5.1.0",
+    "fp-ts": "^2.0.5",
+    "keycode": "^2.2.0",
+    "macoolka-compare": "^0.2.2",
+    "macoolka-css-components": "0.2.3",
+    "macoolka-object": "^0.2.4",
+    "macoolka-predicate": "^0.2.1",
+    "monocle-ts": "^2.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-event-listener": "^0.6.6",
+    "react-popper": "^1.3.4",
+    "react-portal": "^4.2.0",
+    "react-transition-group": "^4.3.0",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/dom-helpers": "^3.4.1",
+    "@types/enzyme": "^3.10.3",
+    "@types/node": "^12.7.2",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-event-listener": "^0.4.9",
+    "@types/react-portal": "^4.0.2",
+    "@types/react-test-renderer": "^16.9.0",
+    "@types/react-transition-group": "^4.2.2",
+    "@types/rimraf": "^2.0.2",
+    "@types/sinon": "^7.0.13",
+    "@types/styled-components": "^4.1.19",
+    "@types/warning": "^3.0.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest": "^24.9.0",
+    "jest-styled-components": "^6.3.3",
+    "macoolka-doc": "^0.2.2",
+    "macoolka-typescript": "^0.2.1",
+    "rimraf": "^2.6.3",
+    "sinon": "^7.4.2",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.6.3"
+  },
+  "files": [
+    "lib",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mocoolka",
+    "css",
+    "functional"
+  ],
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(./src/*|\\.(test|spec))\\.(ts|tsx)$",
+    "setupFilesAfterEnv": [
+      "<rootDir>src/setupTests.ts"
+    ]
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macoolka/macoolka-css-components.git"
+  },
+  "homepage": "https://github.com/macoolka/macoolka-css-components"
+}

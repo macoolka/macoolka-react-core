@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<withElement /> root node should change the  type 1`] = `
+<button
+  tabIndex={0}
+  type="submit"
+>
+  Hello
+</button>
+`;
+
+exports[`<withElement /> root node should change the element component and add accessibility requirements 1`] = `
+<button
+  aria-checked={false}
+  role="checkbox"
+  tabIndex={0}
+>
+  Hello
+</button>
+`;
+
+exports[`<withElement /> root node should render a element with type="div" by default 1`] = `
+<button
+  tabIndex={0}
+>
+  Hello
+</button>
+`;
+
+exports[`<withElement /> root node should spread props on button 1`] = `
+<button
+  data-test="hello"
+  tabIndex={0}
+>
+  Hello
+</button>
+`;
+
+exports[`<withElement /> root node should spread props on button 2`] = `
+<button
+  disabled={true}
+  mkTextColor="disabled"
+  tabIndex={-1}
+>
+  Hello
+</button>
+`;

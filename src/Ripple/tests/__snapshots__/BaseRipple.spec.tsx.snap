@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`base ripple components RippleBase 1`] = `
+.c1 {
+  left: 0px;
+  top: 0px;
+  width: 50px;
+  height: 50px;
+  -webkit-animation-duration: 650ms;
+  animation-duration: 650ms;
+  -webkit-animation-delay: 0ms;
+  animation-delay: 0ms;
+  -webkit-animation-name: mocoolkarippleEnter;
+  animation-name: mocoolkarippleEnter;
+  -webkit-animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  opacity: 0.3;
+  position: absolute;
+  forwarded-component: .c0;
+  forwarded-ref: null;
+}
+
+<span
+  className="c0 c1"
+/>
+`;
+
+exports[`base ripple components RippleBase pulsate={true} 1`] = `
+.c1 {
+  left: 0px;
+  top: 0px;
+  width: 50px;
+  height: 50px;
+  -webkit-animation-duration: 650ms;
+  animation-duration: 650ms;
+  -webkit-animation-delay: 0ms;
+  animation-delay: 0ms;
+  -webkit-animation-name: mocoolkarippleEnter;
+  animation-name: mocoolkarippleEnter;
+  -webkit-animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  opacity: 0.3;
+  position: absolute;
+  forwarded-component: .c0;
+  forwarded-ref: null;
+}
+
+<span
+  className="c0 c1"
+/>
+`;
+
+exports[`base ripple components RippleBase pulsate={true} visible={true} 1`] = `
+.c1 {
+  left: 0px;
+  top: 0px;
+  width: 50px;
+  height: 50px;
+  -webkit-animation-duration: 650ms;
+  animation-duration: 650ms;
+  -webkit-animation-delay: 0ms;
+  animation-delay: 0ms;
+  -webkit-animation-name: mocoolkarippleEnter;
+  animation-name: mocoolkarippleEnter;
+  -webkit-animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  opacity: 0.3;
+  position: absolute;
+  forwarded-component: .c0;
+  forwarded-ref: null;
+}
+
+<span
+  className="c0 c1"
+/>
+`;
+
+exports[`base ripple components RippleBase visible=true 1`] = `
+.c1 {
+  left: 0px;
+  top: 0px;
+  width: 50px;
+  height: 50px;
+  -webkit-animation-duration: 650ms;
+  animation-duration: 650ms;
+  -webkit-animation-delay: 0ms;
+  animation-delay: 0ms;
+  -webkit-animation-name: mocoolkarippleEnter;
+  animation-name: mocoolkarippleEnter;
+  -webkit-animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  opacity: 0.3;
+  position: absolute;
+  forwarded-component: .c0;
+  forwarded-ref: null;
+}
+
+<span
+  className="c0 c1"
+/>
+`;
+
+exports[`base ripple components RippleChild 1`] = `
+.c1 {
+  border-radius: 50%;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  -webkit-animation-duration: 650ms;
+  animation-duration: 650ms;
+  -webkit-animation-delay: 0ms;
+  animation-delay: 0ms;
+  -webkit-animation-name: mocoolkarippleExit;
+  animation-name: mocoolkarippleExit;
+  -webkit-animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  opacity: 0;
+  display: block;
+  background-color: currentColor;
+  position: absolute;
+  forwarded-component: .c0;
+  forwarded-ref: null;
+}
+
+<span
+  className="c0 c1"
+/>
+`;
+
+exports[`base ripple components RippleChild leaving={true} 1`] = `
+.c1 {
+  border-radius: 50%;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  -webkit-animation-duration: 650ms;
+  animation-duration: 650ms;
+  -webkit-animation-delay: 0ms;
+  animation-delay: 0ms;
+  -webkit-animation-name: mocoolkarippleExit;
+  animation-name: mocoolkarippleExit;
+  -webkit-animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  opacity: 0;
+  display: block;
+  background-color: currentColor;
+  position: absolute;
+  forwarded-component: .c0;
+  forwarded-ref: null;
+}
+
+<span
+  className="c0 c1"
+/>
+`;
+
+exports[`base ripple components RippleChild leaving={true} pulsate={true}/ 1`] = `
+.c1 {
+  border-radius: 50%;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  -webkit-animation-duration: 650ms;
+  animation-duration: 650ms;
+  -webkit-animation-delay: 0ms;
+  animation-delay: 0ms;
+  -webkit-animation-name: mocoolkarippleExit;
+  animation-name: mocoolkarippleExit;
+  -webkit-animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  opacity: 0;
+  display: block;
+  background-color: currentColor;
+  position: absolute;
+  forwarded-component: .c0;
+  forwarded-ref: null;
+}
+
+<span
+  className="c0 c1"
+/>
+`;
+
+exports[`base ripple components RippleChild pulsate={true} 1`] = `
+.c1 {
+  border-radius: 50%;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  -webkit-animation-duration: 650ms;
+  animation-duration: 650ms;
+  -webkit-animation-delay: 0ms;
+  animation-delay: 0ms;
+  -webkit-animation-name: mocoolkarippleExit;
+  animation-name: mocoolkarippleExit;
+  -webkit-animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  animation-timing-function: cubic-bezier(0.4,0,0.2,1);
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  opacity: 0;
+  display: block;
+  background-color: currentColor;
+  position: absolute;
+  forwarded-component: .c0;
+  forwarded-ref: null;
+}
+
+<span
+  className="c0 c1"
+/>
+`;
